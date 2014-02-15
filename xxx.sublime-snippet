@@ -1,11 +1,9 @@
 <snippet>
-	<content>
-$(document).ready(function() {
-// Handler for .ready() called.
-});
-</content>
+	<content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}. xxx
+]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ready</tabTrigger>
+	<tabTrigger>xxx</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
